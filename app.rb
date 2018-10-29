@@ -14,5 +14,16 @@ class App < Sinatra::Base
   end
 
   # Code your final two routes here:
+  get "/goodbye/:name" do
+    @user_name = params[:name]
+     "Goodbye, #{@user_name}."
+  end
+  
+  ####multiply is the file : is the params
+  get "/multiply/:num1/:num2" do
+    @product = params[:num1].to_i * params[:num2].to_i
+    #sets the @var to equal both params combined
+    "#{@product}"##displays product
+  end
 
 end
