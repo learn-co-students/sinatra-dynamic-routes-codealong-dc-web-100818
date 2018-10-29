@@ -149,7 +149,7 @@ the content with a forward slash. For example,
 `get '/addnumbers/:number1/:number2'` would give you a params hash with two
 key-value pairs (`number1` and `number2`).
 
-## Create your Own Dynamic Routes
+## Create your Own Dynamic Routes 
 
 Using the example dynamic route that we included in the code-along as a
 template, create the following two routes:
